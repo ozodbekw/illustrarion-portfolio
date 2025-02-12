@@ -129,7 +129,7 @@ main {
   .dev {
     font-weight: 700;
     display: inline;
-    color: white; /* Matnni ichini oq rangda qilish */
+    color: white;
     -webkit-text-stroke: 3px black;
   }
 }
@@ -143,4 +143,27 @@ main {
   position: absolute;
   top: 60px;
   right: 0;
+}
+
+.hero__links {
+  margin-top: 94px;
+  display: flex;
+  gap: 32px;
+  span {
+    display: inline-block;
+    height: 56px;
+    width: 56px;
+    background-color: #000;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  svg {
+    width: 20px;
+    height: 20px;
+    path {
+      fill: white;
+    }
+  }
 }
