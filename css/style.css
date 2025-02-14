@@ -167,3 +167,38 @@ main {
     }
   }
 }
+/* Skills */
+.skils {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.skills__title {
+  font-weight: 800;
+  font-size: 48px;
+  span {
+    font-weight: 400;
+  }
+}
+.skills__wrapper {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  row-gap: 40px;
+}
+.skills-card {
+  width: 186px;
+  height: 186px;
+  border: #000 solid 2px;
+  border-radius: 4px;
+  padding: 32px 0;
+}
+.skills-card__img {
+  width: 56px;
+  height: 56px;
+  margin-bottom: 32px;
+}
+.skills-card__title {
+  font-weight: 700;
+  font-size: 20px;
+}
