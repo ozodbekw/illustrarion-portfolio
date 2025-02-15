@@ -202,3 +202,16 @@ main {
   font-weight: 700;
   font-size: 20px;
 }
+
+/* experience */
+.experience {
+  padding: 60px 0;
+  background-color: #000;
+  color: #fff;
+}
+.experience__container {
+}
+.container {
+}
+.experience__title {
+}
