@@ -210,21 +210,83 @@ main {
   color: #fff;
 }
 .experience__container {
+  text-align: center;
 }
-.container {
-}
+
 .experience__title {
+  font-weight: normal;
+  font-size: 48px;
+  span {
+    font-weight: 700;
+  }
 }
 
 .experience__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 40px 24px;
 }
+
 .experience__card {
+  padding: 30px 24px;
+  border: 2px solid #71717a;
+  border-radius: 10px;
+  text-align: left;
+  background-color: transparent;
 }
+
 .experience__card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 28px;
 }
+
 .experience__card-title {
+  font-weight: 600;
+  font-size: 24px;
+  color: white;
+  letter-spacing: -2%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
+
 .experience__card-time {
+  color: #d4d4d8;
 }
+
 .experience__card-descibtion {
+  color: #d4d4d8;
+}
+
+/* About */
+
+.about {
+  padding: 60px 0;
+  display: flex;
+  gap: 80px;
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about__title {
+  padding: 20px 0;
+  font-size: 48px;
+  font-weight: 400;
+  span {
+    font-weight: 800;
+  }
+}
+
+.about__describtion {
+  font-size: 16px;
+  color: #71717a;
+  letter-spacing: 2%;
+  line-height: 24px;
 }
