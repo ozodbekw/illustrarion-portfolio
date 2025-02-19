@@ -295,6 +295,7 @@ main {
 /* projects */
 .projects {
   background-color: #000;
+  color: #fff;
   padding: 60px 0;
 }
 .projects__container {
@@ -302,6 +303,13 @@ main {
 }
 
 .projects__title {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 48px;
+  font-weight: normal;
+  span {
+    font-weight: 700;
+  }
 }
 .projects__card {
 }
