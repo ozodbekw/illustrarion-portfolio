@@ -289,4 +289,27 @@ main {
   color: #71717a;
   letter-spacing: 2%;
   line-height: 24px;
+  width: 610px;
+}
+
+/* projects */
+.projects {
+  background-color: #000;
+  color: #fff;
+  padding: 60px 0;
+}
+.projects__container {
+  padding: 0 32px;
+}
+
+.projects__title {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 48px;
+  font-weight: normal;
+  span {
+    font-weight: 700;
+  }
+}
+.projects__card {
 }
