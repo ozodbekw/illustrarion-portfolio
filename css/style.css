@@ -300,6 +300,7 @@ main {
 }
 .projects__container {
   padding: 0 32px;
+  text-align: center;
 }
 
 .projects__title {
@@ -311,5 +312,36 @@ main {
     font-weight: 700;
   }
 }
+
 .projects__card {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 20px 0;
+  text-align: left;
+}
+.products__card-img {
+  padding: 40px 64px 40px 0;
+  border-radius: 10px;
+}
+.products__card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.projects__card-number {
+  font-size: 48px;
+  font-weight: 800;
+}
+.products__card-title {
+  font-size: 32px;
+  font-weight: 700;
+}
+.products__card-describtion {
+  font-size: 16px;
+  color: #71717a;
+}
+.prosucts__card-share {
+  height: 20px;
+  width: 20px;
 }
