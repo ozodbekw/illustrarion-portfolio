@@ -345,3 +345,23 @@ main {
   height: 20px;
   width: 20px;
 }
+
+/* testimonial */
+
+.testimonial {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.testimonial__title {
+  font-weight: normal;
+  margin-bottom: 20px;
+  font-size: 48px;
+  span {
+    font-weight: 800;
+  }
+}
+.testimonial__card-wrapper {
+}
+.testimonial__card {
+}
