@@ -362,6 +362,22 @@ main {
   }
 }
 .testimonial__card-wrapper {
+  display: flex;
+  gap: 29px;
 }
 .testimonial__card {
+  padding: 40px;
+}
+
+.testimonial__card {
+}
+.testimonial__card-img {
+}
+.testimonial__card-describtion {
+}
+.testimonial__card-line {
+}
+.testimonial__card-name {
+}
+.testimonial__card-job {
 }
