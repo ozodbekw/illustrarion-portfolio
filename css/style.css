@@ -364,20 +364,41 @@ main {
 .testimonial__card-wrapper {
   display: flex;
   gap: 29px;
+  padding: 40px 24px;
 }
 .testimonial__card {
   padding: 40px;
 }
 
 .testimonial__card {
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  text-align: center;
+  align-items: center;
+  padding: 40px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .testimonial__card-img {
+  height: 96px;
+  width: 96px;
 }
 .testimonial__card-describtion {
+  width: 290px;
 }
 .testimonial__card-line {
+  height: 2px;
+  width: 120px;
+  background-color: #000;
 }
 .testimonial__card-name {
+  font-weight: 600;
+  font-size: 20px;
+  color: #404040;
 }
 .testimonial__card-job {
+  color: #71717a;
+  font-weight: 600;
+  font-size: 16px;
 }
