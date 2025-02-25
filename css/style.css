@@ -351,6 +351,7 @@ main {
 .testimonial {
   text-align: center;
   margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .testimonial__title {
@@ -401,4 +402,11 @@ main {
   color: #71717a;
   font-weight: 600;
   font-size: 16px;
+}
+
+/* contact */
+
+.contact {
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
