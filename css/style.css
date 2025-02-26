@@ -409,4 +409,30 @@ main {
 .contact {
   margin-top: 60px;
   margin-bottom: 60px;
+  display: flex;
+  gap: 108px;
+}
+
+.contact__inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  input,
+  textarea {
+    padding: 18px 24px;
+    border: #71717a 2px solid;
+    border-radius: 5px;
+    &::placeholder {
+      font-size: 16px;
+      color: #71717a;
+    }
+    &:last-child {
+      resize: vertical;
+    }
+  }
+}
+
+.contact__caontainer {
+  display: flex;
+  width: 100%;
 }
