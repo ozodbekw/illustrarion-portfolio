@@ -417,6 +417,9 @@ main {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  max-width: 608px;
+  width: 100%;
+  padding-right: 108px;
   input,
   textarea {
     padding: 18px 24px;
@@ -435,4 +438,24 @@ main {
 .contact__caontainer {
   display: flex;
   width: 100%;
+  align-items: center;
+}
+
+.contact__links {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  font-size: 28px;
+}
+.contact__title {
+  font-size: 48px;
+  font-weight: 800;
+  width: 550px;
+  margin-bottom: 20px;
+}
+.contact__describtion {
+  font-size: 16px;
+  width: 608px;
+  margin-bottom: 40px;
+  color: #71717a;
 }
