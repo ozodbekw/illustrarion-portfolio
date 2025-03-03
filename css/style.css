@@ -116,15 +116,16 @@ main {
 .hero {
   padding: 60px 0;
   position: relative;
+  display: flex;
 }
 
 .hero__title {
-  margin-top: 110px;
+  margin-top: 30px;
+  margin-bottom: 32px;
   font-size: 48px;
   font-weight: 400;
   line-height: 2;
   letter-spacing: 2%;
-  margin-bottom: 32px;
   span {
     font-weight: 800;
   }
@@ -142,13 +143,31 @@ main {
 }
 
 .hero__img {
-  position: absolute;
+  /* position: absolute; */
   top: 60px;
   right: 0;
+  width: 789px;
+  height: 500px;
+}
+
+@media (max-width: 375px) {
+  .hero {
+    flex-direction: column;
+  }
+  .hero__title {
+    font-weight: normal;
+  }
+  .hero__img {
+    order: -1;
+    width: 40%;
+    height: 332px;
+    width: 495px;
+    margin-left: -20px;
+  }
 }
 
 .hero__links {
-  margin-top: 94px;
+  margin-top: 32px;
   display: flex;
   gap: 32px;
   span {
@@ -346,6 +365,7 @@ main {
 .prosucts__card-share {
   height: 20px;
   width: 20px;
+  cursor: pointer;
 }
 
 /* testimonial */
